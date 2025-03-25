@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massagem Relaxante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Div para o fundo borrado -->
+    <div class="background-overlay"></div>
+
+    <div class="content">
+        <header>
+            <h1>Cuidado e Bem-Estar</h1>
+        </header>
+
+        <section id="perguntas">
+            <h2>Responda às 3 perguntas sobre seu bem-estar:</h2>
+            <form action="#" method="post">
+                <!-- Pergunta 1: Qualidade do sono -->
+                <label for="pergunta1">1. A qualidade do seu sono é:</label><br>
+                <input type="radio" id="sono_bom" name="pergunta1" value="Bom" required>
+                <label for="sono_bom">Bom</label><br>
+                <input type="radio" id="sono_ruim" name="pergunta1" value="Ruim">
+                <label for="sono_ruim">Ruim</label><br>
+                <input type="radio" id="sono_pessimo" name="pergunta1" value="Péssimo">
+                <label for="sono_pessimo">Péssimo</label><br>
+
+                <!-- Pergunta 2: Estresse -->
+                <label for="pergunta2">2. Você se considera uma pessoa estressada?</label><br>
+                <input type="radio" id="estresse_sim" name="pergunta2" value="Sim" required>
+                <label for="estresse_sim">Sim</label><br>
+                <input type="radio" id="estresse_nao" name="pergunta2" value="Não">
+                <label for="estresse_nao">Não</label><br>
+
+                <!-- Pergunta 3: Organização da rotina -->
+                <label for="pergunta3">3. Você organiza sua rotina para equilibrar produtividade e bem-estar?</label><br>
+                <input type="radio" id="rotina_sim" name="pergunta3" value="Sim" required>
+                <label for="rotina_sim">Sim</label><br>
+                <input type="radio" id="rotina_nao" name="pergunta3" value="Não">
+                <label for="rotina_nao">Não</label><br>
+
+                <input type="submit" value="Enviar Respostas">
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Massagem Relaxante. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
